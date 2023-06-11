@@ -18,7 +18,7 @@ body {
     color: #4d5ae5;
     text-decoration: none;
 }
-.logo > .span-a {
+.link > .span-a {
     color: #2e2f42;
 }
 .list .link {
@@ -70,6 +70,7 @@ address .link:focus {
 .section-title .order-service:hover,
 .section-title .order-service:focus {
     color: #404BBF;
+    background-color: #404BBF;
 }
 .list .caption {
     font-weight: 500;
@@ -89,6 +90,13 @@ address .link:focus {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-three .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
 }
