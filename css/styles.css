@@ -7,7 +7,7 @@ body {
   --color1: #434455;
   --color2: #2E2F42;
 }
-.header > .link {
+.logo {
     font-family: "Ralewey",sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -18,7 +18,7 @@ body {
     color: #4d5ae5;
     text-decoration: none;
 }
-.link > .span-a {
+.logo .span-a {
     color: #2e2f42;
 }
 .list .link {
