@@ -7,8 +7,8 @@ body {
   --color1: #434455;
   --color2: #2E2F42;
 }
-.logo {
-    font-family: "Ralewey",sans-serif;
+.header > .link {
+    font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -18,7 +18,7 @@ body {
     color: #4d5ae5;
     text-decoration: none;
 }
-.logo .span-a {
+.link > .span-a {
     color: #2e2f42;
 }
 .list .link {
@@ -130,7 +130,7 @@ address .link:focus {
     background-color: #2e2f42;
 }
 .footer .link {
-    font-family: "Ralewey", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
