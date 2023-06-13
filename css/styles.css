@@ -42,6 +42,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-weight: 400;
 }
 address .link:hover,
 address .link:focus {
@@ -129,7 +130,7 @@ address .link:focus {
 .footer {
     background-color: #2e2f42;
 }
-.footer .link {
+.footer-link {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -143,7 +144,7 @@ address .link:focus {
 .footer .span-a {
     color: #f4f4fd;
 }
-.footer .text {
+.footer-text {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
@@ -168,4 +169,18 @@ address .link:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+/* HIDDEN */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
