@@ -33,21 +33,27 @@ body {
 .list .link:focus {
     color: #404bbf;
 }
+/**
+  |============================
+  | address
+  |============================
+*/
 address {
     font-style: normal;
 }
-.address .link {
+.address-link {
     list-style: none;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-weight: 400;
+    text-decoration: none;
 }
-address .link:hover,
-address .link:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
+
+
 .section-title {
     background-color: #2e2f42;
 }
@@ -170,7 +176,11 @@ address .link:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-/* HIDDEN */
+/**
+  |============================
+  | HIDDEN
+  |============================
+*/
 
 .visually-hidden {
     position: absolute;
