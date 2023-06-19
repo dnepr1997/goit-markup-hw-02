@@ -7,6 +7,12 @@ body {
   --color1: #434455;
   --color2: #2E2F42;
 }
+ul {
+    list-style-type: none;
+}
+img {
+    display: block;
+}
 .header > .link {
     font-family: "Raleway",sans-serif;
     font-style: normal;
@@ -45,7 +51,7 @@ address {
     list-style: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color1);
     text-decoration: none;
 }
 .address-link:hover,
@@ -90,7 +96,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color1);
 }
 .section-two .title {
     font-size: 36px;
@@ -132,6 +138,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--color1)
 }
 .footer {
     background-color: #2e2f42;
